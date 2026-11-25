@@ -74,3 +74,18 @@ An alternative is to create two files. .env containing the sensitive stuff that 
 
 The dev env files are not in the root as docker compose will use env files too so don't want a conflict of filenames in the same directory.
 
+# Using containers
+You could put the application and the databases in the same compose.yaml file but we would have both MySQL and MongoDB containers running when we only need one
+
+To avoid that, you can split up the yaml file into the app, MySQL and MongoDB yaml files then join the files together at the command line
+
+**docker compose -f etl.yaml -f mysql.yaml up -d --build** will build the etl and MySQL containers and create the Docker network as compose effectively merges these two files into one  
+Or  
+**docker compose -f etl.yaml -f mongo.yaml up -d --build** will build etl and mongo containers and create a network for them  
+
+To bring the containers down, you need to specify the same file or files you use to build them
+**docker compose -f etl.yaml -f mysql.yaml down -v**  -v means delete the volume holding the data
+or  
+**docker compose -f etl.yaml -f mysql.yaml down -v**  
+
+

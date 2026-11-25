@@ -28,12 +28,12 @@ http://localhost:4000/data/test
 ## REMOTE HOST CONTAINER LINKS #####
 ####################################
 ### server up
-http://20.90.84.88:4000
+http://20.39.226.191:4000
 
 
 ### /etl/:tableName/:textFile etl the text file into tableName
-http://20.90.84.88:4000/etl/junk/quiz.txt
+http://20.39.226.191:4000/etl/junk/quiz.txt
 
 
 ### Read all the data from /data/tableName
-http://20.90.84.88:4000/data/junk
+http://20.39.226.191:4000/data/junk

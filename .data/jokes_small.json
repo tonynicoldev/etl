@@ -1,0 +1,202 @@
+[
+  {
+    "type": "general",
+    "setup": "What did the fish say when it hit the wall?",
+    "punchline": "Dam."
+  },
+  {
+    "type": "general",
+    "setup": "How do you make a tissue dance?",
+    "punchline": "You put a little boogie on it."
+  },
+  {
+    "type": "general",
+    "setup": "What's Forrest Gump's password?",
+    "punchline": "1Forrest1"
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a belt made out of watches?",
+    "punchline": "A waist of time."
+  },
+  {
+    "type": "general",
+    "setup": "Why can't bicycles stand on their own?",
+    "punchline": "They are two tired"
+  },
+  {
+    "type": "general",
+    "setup": "How does a train eat?",
+    "punchline": "It goes chew, chew"
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a singing Laptop",
+    "punchline": "A Dell"
+  },
+  {
+    "type": "general",
+    "setup": "How many lips does a flower have?",
+    "punchline": "Tulips"
+  },
+  {
+    "type": "general",
+    "setup": "How do you organize an outer space party?",
+    "punchline": "You planet"
+  },
+  {
+    "type": "general",
+    "setup": "What kind of shoes does a thief wear?",
+    "punchline": "Sneakers"
+  },
+  {
+    "type": "general",
+    "setup": "What's the best time to go to the dentist?",
+    "punchline": "Tooth hurty."
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n A broken pencil. \n A broken pencil who?",
+    "punchline": "Never mind. It's pointless."
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Cows go. \n Cows go who?",
+    "punchline": "No, cows go moo."
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
+    "punchline": "I didn't know you could yodel!"
+  },
+  {
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "type": "programming",
+    "setup": "What's the object-oriented way to become wealthy?",
+    "punchline": "Inheritance"
+  },
+  {
+    "type": "programming",
+    "setup": "Where do programmers like to hangout?",
+    "punchline": "The Foo Bar."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer quit his job?",
+    "punchline": "Because he didn't get arrays."
+  },
+  {
+    "type": "general",
+    "setup": "Did you hear about the two silk worms in a race?",
+    "punchline": "It ended in a tie."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a laughing motorcycle?",
+    "punchline": "A Yamahahahaha."
+  },
+  {
+    "type": "general",
+    "setup": "A termite walks into a bar and says...",
+    "punchline": "'Where is the bar tended?'"
+  },
+  {
+    "type": "general",
+    "setup": "What does C.S. Lewis keep at the back of his wardrobe?",
+    "punchline": "Narnia business!"
+  },
+  {
+    "type": "programming",
+    "setup": "Why do programmers always mix up Halloween and Christmas?",
+    "punchline": "Because Oct 31 == Dec 25"
+  },
+  {
+    "type": "programming",
+    "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
+    "punchline": "'Can I join you?'"
+  },
+  {
+    "type": "programming",
+    "setup": "How many programmers does it take to change a lightbulb?",
+    "punchline": "None that's a hardware problem"
+  },
+  {
+    "type": "programming",
+    "setup": "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program",
+    "punchline": "the rest of them will write Perl"
+  },
+  {
+    "type": "programming",
+    "setup": "['hip', 'hip']",
+    "punchline": "(hip hip array)"
+  },
+  {
+    "type": "programming",
+    "setup": "To understand what recursion is...",
+    "punchline": "You must first understand what recursion is"
+  },
+  {
+    "type": "programming",
+    "setup": "There are 10 types of people in this world...",
+    "punchline": "Those who understand binary and those who don't"
+  },
+  {
+    "type": "general",
+    "setup": "What did the duck say when he bought lipstick?",
+    "punchline": "Put it on my bill"
+  },
+  {
+    "type": "general",
+    "setup": "What happens to a frog's car when it breaks down?",
+    "punchline": "It gets toad away"
+  },
+  {
+    "type": "general",
+    "setup": "did you know the first French fries weren't cooked in France?",
+    "punchline": "they were cooked in Greece"
+  },
+  {
+    "type": "programming",
+    "setup": "Which song would an exception sing?",
+    "punchline": "Can't catch me - Avicii"
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Opportunity.",
+    "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+  },
+  {
+    "type": "programming",
+    "setup": "Why do Java programmers wear glasses?",
+    "punchline": "Because they don't C#"
+  },
+  {
+    "type": "general",
+    "setup": "Why did the mushroom get invited to the party?",
+    "punchline": "Because he was a fungi."
+  },
+  {
+    "type": "general",
+    "setup": "Do you know what the word 'was' was initially?",
+    "punchline": "Before was was was was was is."
+  },
+  {
+    "type": "general",
+    "setup": "I'm reading a book about anti-gravity...",
+    "punchline": "It's impossible to put down"
+  },
+  {
+    "type": "general",
+    "setup": "If you're American when you go into the bathroom, and American when you come out, what are you when you're in there?",
+    "punchline": "European"
+  },
+  {
+    "type": "general",
+    "setup": "Want to hear a joke about a piece of paper?",
+    "punchline": "Never mind...it's tearable"
+  }
+]

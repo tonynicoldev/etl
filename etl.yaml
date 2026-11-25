@@ -1,0 +1,24 @@
+services:  
+  etl:  # Loads data from a file in a volume into a mysql database
+    image : oldgitdocker/etl  # Image name to create when building or to use when creating container
+   # pull_policy: always      # Useful when dev on cloud - make sure always have latest without version tag 
+    build: 
+      context: .              # Location of dockerfile and source files - project dir
+    env_file:
+    - .env                    # Load the env vars to be sent to the container
+    environment:
+      - DB_TYPE=${DB_TYPE}    # Interpolate any terminal env var then pass to docker 
+    container_name: etl       # Optionally name the container when built
+    restart: unless-stopped   # It it stops, Docker will try to restart it even if I stop it
+    ports:
+    - ${ETL_CONTAINER_PORT}:${APP_PORT}  
+
+    volumes:
+      - ./.data:/usr/src/app/.data # bind mount to the data dir
+    depends_on:
+      db:        # Used db for all database types so this is a common dependency regardless of database type
+        condition: service_healthy
+
+ 
+
+ 

@@ -1,8 +1,8 @@
 node_modules
 infra
 .dockerignore
-Dockerfile
-etl.yaml
-mongo.yaml
-mysql.yaml
+#Dockerfile
+#etl.yaml
+#mongo.yaml
+#mysql.yaml
 readme.txt

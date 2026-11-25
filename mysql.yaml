@@ -1,0 +1,22 @@
+services:
+ db:  # The database service. Use the default below or override this with a different service e.g., mongo in mongo.yaml
+    image: mysql            
+    container_name: mysql
+    restart: unless-stopped        # If it crashes, restart it unless it was me that stopped it
+    env_file:
+      - .env                       # All config we need for this container is in here
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -u$MYSQL_USER -p$MYSQL_PASSWORD -e 'SELECT 1'"] # Try to login and select from the database
+      start_period: 10s # At least give it a chance
+      interval: 5s      # Wait then try again i test fails
+      timeout: 5s       # Wait a max of this long for a response from the test
+      retries: 5        # Try this many times before giving up
+    volumes:
+      - db:/var/lib/mysql
+    ports:
+      - ${MYSQL_CONTAINER_PORT}:${MYSQL_PORT}   
+    
+
+volumes:
+  db:
+    name: db   # Database volume regardless of the db service as each is mapped to db to avoid changing this name
